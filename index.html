@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEB page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+    <div class="navbar">
+        <button class="instagram" >Home</button>
+        <button  class="instagram" href="instagram.com/sfrn6ix">Insta</button>
+        <button class="instagram">About</button>
+        <h1 class="feb-page">FEB Page</h1>
+        <h6 class="book"> Front End Book</h6>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich Dad Poor Dad</h2><br>
+            <h5>Robert</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit iusto aliquid alias, doloremque nemo laboriosam commodi veritatis et voluptate, non sed quis dolore quas minima perspiciatis, porro quasi quos recusandae!</p>
+            <br>
+            <h6 class="feb">FEB</h6>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea placeholder="Short Description" id="book-description"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button> 
+        </form>
+    </div>
+
+<div class="popup-overlay01"></div>
+<div class="side-navbar">
+        <h2>FEB Page</h2><br>
+        <button onclick="deletebook(event)" class="x-btn" id="xbtn">X</button>
+<hr>
+<p>
+    <button class="Home-btn">Home</button>
+    <br>
+    <button class="about-btn">About</button>
+    <br>
+    <button class="sign-in">Sign-in</button>
+    <br>
+    <button class="sign-out">Sign-out</button>
+</p>
+</div>
+<button class="side-navbar-btn" id="sidenavbtn">=</button>
+
+
+    <button class="add-button" id="add-popup-button">+</button>
+    <div class="footer">
+        <h2 class="about">About</h2>
+        <div class="link-pera">
+        <a  href="https://instagram.com/sfrn6ix?igsh=OGQ5ZDc2ODk2ZA==">Instagram |</a>
+        <a  href="contact">Contact |</a>
+        <a  href="About">About</a>
+        </div>
+        <h6 class="about-bottom"> Copyright (c) 2024 Feb Page All Rights Reserved</h6>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
